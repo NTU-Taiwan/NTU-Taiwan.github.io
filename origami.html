@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>NTU biomod 2024 home</title>
+    <link rel="stylesheet" href="origami.css" />
+    <link rel="stylesheet" href="template.css" />
+</head>
+
+
+<body>
+
+<div class="navbar">
+    <div class="name_logo">
+        <a href="index.html" class="logo_button"><img src="logo.png" width="80px" height="80px"></img></a>
+        <a href="index.html" class="team_name">NTU_Taiwan</a>
+    </div>
+    <div class="navbar_button">
+        <a href="index.html"> Home </a>
+        <a href="origami.html"> DNA Origami </a>
+        <a href="microfluid.html"> Microfluid </a>
+        <a href="team.html"> Team </a>
+    </div>
+</div>
+
+<div class="main">
+    <div class="background"></div>
+    <h2>Introduction</h2>
+    <img src="origami/origamis introduction.svg" width="600px" height="auto"></img>
+    <h2>DNA origami folding</h2>
+    <p style="text-align: center;">3nM from paper</p>
+    <table>
+        <tr>
+            <td> </td>
+            <td>20μL</td>
+            <td>50</td>
+            <td>100</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <th colspan="5">Staple</th>
+        </tr>
+        <tr>
+            <th>500nM edge (to 30nM)</th>
+            <td>1.2</td>
+            <td>3</td>
+            <td>6.3</td>
+            <td>31.5</td>
+        </tr>
+        <tr>
+            <th>250nM mid (to 30nM)</th>
+            <td>2.4</td>
+            <td>6</td>
+            <td>12.6</td>
+            <td>63</td>
+        </tr>
+        <tr>
+            <th colspan="5">Scaffold</th>
+        </tr>
+        <tr>
+            <th>100nM M13mp18 (to 3nM)</th>
+            <td>0.6</td>
+            <td>1.5</td>
+            <td>3.15</td>
+            <td>15.75</td>
+        </tr>
+        <tr>
+            <th colspan="5">Buffer</th>
+        </tr>
+        <tr>
+            <th>10xTAE (to 1x)</th>
+            <td>2</td>
+            <td>5</td>
+            <td>10.5</td>
+            <td>52.5</td>
+        </tr>
+        <tr>
+            <th>50mM MgCl<sub>2</sub> (to10mM)</th>
+            <td>4</td>
+            <td>10</td>
+            <td>21</td>
+            <td>105</td>
+        </tr>
+        <tr>
+            <th>ddH<sub>2</sub>O</th>
+            <td>8.6</td>
+            <td>21.5</td>
+            <td>45.15</td>
+            <td>225.75</td>
+        </tr>
+        <tr>
+            <th colspan="5" style="border-bottom: 1px solid black;">Annealing : ~80<sup>o</sup>C 90 min  => 25<sup>o</sup>C</th>
+        </tr>
+        <caption style="text-align: left;">Unit: μL</caption>
+    </table>
+    <img width = "600px" height="auto" src="origami/DNA origami.svg"></img>
+    <h2>Purification: 100 kDa MWCO, Amicon, Millipore</h2>
+    <ol type="1">
+        <li> Prepare washing buffer: H2O 7mL 10X TAE 1 mL 50mM MgCl2 2 mL to 10 mL</li>
+        <li> Apply 500μl washing buffer into the tube and close the lid to rinse an Amicon Ultra-0.5 Centrifugal Filter Devices.
+            Spin at 4,500 g, 25°C 7min</li>
+        <li> Load 400ul samples and 100ul washing buffer to Amicon Ultra-0.5 Centrifugal Filter Devices, 4,500 g/rcf, 25°C 8min</li>
+        <li> Wash the left two more times with 450ul washing buffer, spin for 4,500 g, 25°C 8min</li>
+        <li> To recover the concentrated solute, place the Amicon Ultra filter device upside down in a clean microcentrifuge tube. 
+            Place in a centrifuge, aligning the open cap towards the center of the rotor; counterbalance with a similar device. 
+            Spin for 5minutes at 4,500g to transfer the concentrated sample from the device to the tube.</li>
+    </ol>
+    <h2>Add aptamer on DNA origami triangle</h2>
+    <ol type="1">
+        <li> After DNA origami purification mix it with 6.3 μL aptamer</li>
+        <li> After mixing put it at 37°C for 2 hr</li>
+    </ol>
+    <h2>Check by gel electrophoresis</h2>
+    <ol type="1">
+        <li>Pour 22mL of 1x TAE and 0.2g of agarose powder into a small serum bottle and mix well.</li>
+        <li>Microwave until boiling, repeating the process three times, then mix thoroughly again.</li>
+        <li>Pour the gel into a conical flask located in the EtBr area, preparing to add EtBr.</li>
+        <li>Extract 2μL of EtBr from the container (inside the silver canister). 
+            Make sure to handle external items with clean hands while anything potentially contaminated remains inside.</li>
+        <li>Drop the EtBr into the gel in the conical flask, inserting the pipette tip directly into the gel layer before adding the solution.
+            Keep the gel temperature around 60°C while adding EtBr. Mix thoroughly, then pour the mixture into the mold.</li>
+        <li>Insert a graduated comb into the mold (the comb will create eight wells) and allow it to solidify for about 15 minutes.</li>
+        <li>Once solidified, carefully pull out the comb vertically. 
+            Place the transparent mold with purple-striped markings into the electrophoresis tank, ensuring it is submerged in the buffer. 
+            Set the slider to "Half" but do not turn on the power switch.</li>
+        <li>Prepare the samples and labeling materials in a clean area. 
+            Use a pipette to draw 10μL of the sample, ensuring it is well-mixed by repeatedly drawing and releasing.</li>
+        <li>Gently release the sample into the well created by the comb, avoiding any puncturing of the gel. 
+            Insert the pipette tip slightly, then carefully release the sample.</li>
+        <li>After confirming the gel is intact, turn on the power, cover the setup with a lid and aluminum foil to avoid exposure to light.</li>
+    </ol>
+    <img src="origami/origami process.svg" width="100%"></img>
+    <h2>AFM sample</h2>
+    <ol type="1">
+        <li>I.	Use a freshly cleaved mica sheet (for instance, a 12 mm mica disc* glued to a metal puck) 
+            and incubate it with 20 μl of folding buffer (1x FB: 1x TAE supplemented with 10 mM MgCl2) for 1 minute. </li>
+        <li>Add about 5 μl volume sample to the buffer on the mica. Tilt the mica sheet carefully in all directions
+            to dis-tribute the sample all over the surface and let it incubate for another 2 minutes.</li>
+        <li>Take a tweezer and dip your mica sheet briefly into the ethanol/water bath. Directly afterwards transfer it to the ethanol bath 
+            and keep it there for a few seconds.</li>
+    </ol>
+</div>
+
+</body>
+</html>

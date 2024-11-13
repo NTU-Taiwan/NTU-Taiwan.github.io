@@ -1,0 +1,28 @@
+.person{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.person-img{
+    height: 100%;
+    width: 50%;
+}
+
+.person-img img{
+    height: 100%;
+    width: auto;
+}
+
+
+.person-info p{
+    width: 600px;
+    margin-left: 5%;
+}
+
+.name{
+    font-size: 40px;
+}
+

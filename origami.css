@@ -1,0 +1,25 @@
+table{
+    margin: 0 auto; 
+    width: 70%;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td{
+    text-align:center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+th{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+caption{
+    caption-side: bottom;
+}
