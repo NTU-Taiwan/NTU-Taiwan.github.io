@@ -1,0 +1,13 @@
+.pictures-flex{
+    display: flex;
+}
+
+.pictures-flex img{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+figcaption{
+    text-align: center;
+}

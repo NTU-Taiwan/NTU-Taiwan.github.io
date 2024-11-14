@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, table{
+h1, h2, h3, p, a, table, ol, figcaption{
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -58,8 +58,8 @@ h1, h2, h3, p, a, table{
 .main{
     padding: 16px;
     margin-top: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .main *:not(.background) {
@@ -88,7 +88,7 @@ h1, h2{
     text-align: center;
 }
 
-p, table, ol{
+p, table, ol, figcaption{
     font-size: 20px;
 }
 
