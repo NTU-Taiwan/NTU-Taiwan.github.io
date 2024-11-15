@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, table, ol, figcaption{
+h1, h2, h3, p, a, table, ol, figcaption, caption{
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3, p, a, table, ol, figcaption{
     right: 0;
     bottom: 0;
     position: fixed;
-    background-color: white;
+    background-color: #f0f5f9;
     opacity: 0.2;
     z-index: -1;
 }

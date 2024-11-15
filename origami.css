@@ -28,8 +28,17 @@ caption{
     display: flex;
 }
 
-.pictures-flex img{
+.pictures-flex figure{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.pictures-flex img{
+    width: 100%;
+}
+
+figcaption{
+    caption-side: bottom;
+    text-align: center;
 }
