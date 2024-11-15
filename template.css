@@ -1,4 +1,4 @@
-h1, h2, h3, p, a, table, ol, figcaption, caption{
+h1, h2, h3, p, a, table, ol, figcaption, caption, ul{
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -10,12 +10,15 @@ h1, h2, h3, p, a, table, ol, figcaption, caption{
 
 .navbar {
     overflow: hidden;
+    flex-wrap: nowrap;
+    display: flex;
     background-color: #52616a;
     position: fixed;
     top: 0;
     width: 100%;
     height: 80px;
-    z-index: 1000;
+    padding: 0 10%;
+    z-index: 3000;
 }
 
 .name_logo{
@@ -35,21 +38,34 @@ h1, h2, h3, p, a, table, ol, figcaption, caption{
     z-index: 2000;
 }
 
-.navbar_button{
-    float: right;
+.navbar {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    background-color: #52616a;
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 80px;
-    margin-right: 10%;
+    z-index: 1000;
+    padding: 0; 
+}
+
+.navbar_button {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100%; 
 }
 
 .navbar_button a {
-    float: left;
-    display: block;
+    padding: 28px; 
     color: #f0f5f9;
-    text-align: center;
-    padding: 28px 28px;
     text-decoration: none;
     font-size: 24px;
 }
+
 
 .navbar_button a:hover {
     color: #c9d6de;
@@ -94,7 +110,7 @@ h3{
     margin-top: 50px;
 }
 
-p, table, ol, figcaption, a{
+p, table, ol, figcaption, a, ul{
     font-size: 20px;
 }
 
