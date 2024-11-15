@@ -94,7 +94,7 @@ h3{
     margin-top: 50px;
 }
 
-p, table, ol, figcaption{
+p, table, ol, figcaption, a{
     font-size: 20px;
 }
 
