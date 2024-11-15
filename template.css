@@ -86,6 +86,7 @@ h1, h2, h3, p, a, table, ol, figcaption{
 
 h1, h2{
     text-align: center;
+    margin-top: 75px;
 }
 
 p, table, ol, figcaption{

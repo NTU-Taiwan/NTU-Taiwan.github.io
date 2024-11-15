@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>NTU biomod 2024 home</title>
+    <title>biomod 2024 NTU_Taiwan: microfluid</title>
     <link rel="stylesheet" href="microfluid.css" />
     <link rel="stylesheet" href="template.css" />
 </head>
@@ -27,6 +27,25 @@
 
 <div class="main">
     <div class="background"></div>
+    <h2>Introduction</h2>
+    <p style="text-indent: 2em;">
+        Our model is designed to test the capability of DNA origami to penetrate the blood-brain barrier (BBB). 
+        Drawing inspiration from the study "Engineered Human Blood–Brain Barrier Microfluidic Model for Vascular Permeability Analyses" 
+        (Hajal et al., 2022), we developed a microfluidic channel made of PDMS with dimensions of 15mm x 15mm x 4mm. 
+        This setup features cell cultivation in the central channel area, with one end simulating blood vessels and the other representing 
+        brain tissue.
+    </p>
+    <p style="text-indent: 2em;">
+        Preparation involves plasma coating a clean glass slide on the PDMS channel. Cells are then injected into the central chamber, 
+        filling it completely to prevent DNA origami from leaking to the opposite side. Once cell growth is confirmed, a solution containing 
+        fluorescently tagged DNA origami is introduced on the vascular side to facilitate detection and analysis.
+    </p>
+    <p style="text-indent: 2em;">
+        The primary challenge has been controlling fluid flow within such a small-scale model. Using syringes sometimes resulted in excessive 
+        flow, risking cell displacement or wall damage. To address this, we now introduce precise volumes via tubing and a micropipette, 
+        achieving greater accuracy in our DNA origami permeability measurements.
+    </p>
+    <h2>3D Model</h2>
     <div class="sketchfab-embed-wrapper"> <iframe title="Wafer Model" frameborder="0" 
         allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" 
         xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src=
@@ -40,8 +59,12 @@
         <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=58a9f699dd29457b964accf431245c33" 
         target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
     <h2>Reference</h2>
-    <p>Hajal, C., Offeddu, G. S., Shin, Y., Zhang, S., Morozova, O., Hickman, D., Knutson, C. G., & Kamm, R. D. (2022). 
-        Engineered human blood–brain barrier microfluidic model for vascular permeability analyses. Nature Protocols, 17(1), 95–128. </p>
+    <p>
+        Hajal, C., Offeddu, G. S., Shin, Y., Zhang, S., Morozova, O., Hickman, D., Knutson, C. G., & Kamm, R. D. (2022). 
+        Engineered human blood-brain barrier microfluidic model for vascular permeability analyses. Nature Protocols, 17(1), 95-128. 
+        <a href="https://doi.org/10.1038/s41596-021-00635-w" style="font-size: 20px;">https://doi.org/10.1038/s41596-021-00635-w</a>
+    </p>
+
 </div>
 
 </body>
