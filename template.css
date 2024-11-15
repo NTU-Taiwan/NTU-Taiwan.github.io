@@ -89,6 +89,11 @@ h1, h2{
     margin-top: 75px;
 }
 
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+
 p, table, ol, figcaption{
     font-size: 20px;
 }
